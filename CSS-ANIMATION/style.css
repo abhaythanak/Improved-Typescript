@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: absolute;
+}
+
+@keyframes move {
+    from{
+        left: 0;
+    }to{
+        left: 60%;
+        rotate: 180deg;
+        background-color: blue;
+    }
+}
