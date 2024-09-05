@@ -9,6 +9,8 @@ html,body {
     width: 100%;
 }
 
+/*                      01                        */
+/* 
 #box{
     height: 400px;
     width: 400px;
@@ -16,7 +18,7 @@ html,body {
     animation-name: move;
     animation-duration: 2s;
     animation-delay: 1s;
-    position: absolute;
+    position: relative;
 }
 
 @keyframes move {
@@ -26,5 +28,26 @@ html,body {
         left: 60%;
         rotate: 180deg;
         background-color: blue;
+    }
+} */
+
+
+/*                               02               */
+
+img{
+    height: 60px;
+    position: relative;
+    animation-name: anime;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+@keyframes anime {
+    from{
+        left: 0;
+        top: 0;
+    }to {
+        left: 75%;
+        top: 81%;
     }
 }
